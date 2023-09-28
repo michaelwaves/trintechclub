@@ -21,7 +21,7 @@ export default function Header() {
             <Link href="/" className="cursor-pointer">
                 <div className="flex-row hidden md:flex">
                     <Image src="/images/logo.jpg" width={100} height={100} alt="trin tech club logo" className="h-20 w-auto z-10" />
-                    <Image src="/images/icon.png" width={100} height={100} alt="trin tech club logo" className="h-20 w-auto translate-x-1"></Image>
+                    <Image src="/images/icon.png" width={100} height={100} alt="trin tech club logo" className="h-20 w-auto -translate-x-1"></Image>
                 </div>
                 <AiFillHome className="block md:hidden h-16" />
             </Link>
