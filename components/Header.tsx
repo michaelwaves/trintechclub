@@ -17,7 +17,7 @@ export default function Header() {
     ));
 
     return (
-        <div data-testid="header" className="w-full h-20 fixed top-0 left-0 flex flex-row justify-between p-4 bg-white dark:bg-black z-20 items-center">
+        <div data-testid="header" className="w-full h-20 fixed top-0 left-0 flex flex-row justify-between p-4 bg-white dark:bg-black z-20 items-center gap-2">
             <Link href="/" className="cursor-pointer">
                 <div className="flex-row hidden md:flex">
                     <Image src="/images/logo.jpg" width={100} height={100} alt="trin tech club logo" className="h-20 w-auto z-10" />
