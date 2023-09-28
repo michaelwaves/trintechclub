@@ -5,6 +5,7 @@ import { BsDiscord } from "react-icons/bs"
 import { useContext } from "react"
 import { CursorContext } from "@/providers/cursorProvider"
 import DiscordButton from "../DiscordButton"
+import PrintButton from "../PrintButton"
 
 export default function Hero() {
     const [cursorType, setCursorType] = useContext<any>(CursorContext)
@@ -19,9 +20,10 @@ export default function Hero() {
                     <h2>Welcome to Trinity College&#39;s best Tech Club :&#41;</h2>
                 </div>
                 <div className="flex flex-row gap-8 justify-end items-center ">
-                    <Link href="/about">Learn More</Link>
+                    <PrintButton />
                     <DiscordButton />
                 </div>
+                <Link href="/about">Learn More</Link>
             </div>
         </div>
     )

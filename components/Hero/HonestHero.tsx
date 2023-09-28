@@ -5,6 +5,7 @@ import { useContext, useEffect, useState } from "react"
 import { CursorContext } from "@/providers/cursorProvider"
 import { motion, useMotionValue } from "framer-motion"
 import DiscordButton from "../DiscordButton"
+import PrintButton from "../PrintButton"
 
 export default function HonestHero() {
     const [cursorType, setCursorType] = useContext<any>(CursorContext)
@@ -66,9 +67,10 @@ export default function HonestHero() {
                     <h2>Prepare yourself for the singularity :&#39;&#41;</h2>
                 </div>
                 <div className="flex flex-row gap-8 justify-end items-center ">
-                    <Link href="/about">Learn More</Link>
+                    <PrintButton />
                     <DiscordButton />
                 </div>
+                <Link href="/about">Learn More</Link>
             </div>
         </motion.div>
     )
