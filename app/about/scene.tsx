@@ -1,12 +1,11 @@
 "use client"
 
 import { Canvas } from '@react-three/fiber'
-import { OrbitControls, ScrollControls, Scroll } from '@react-three/drei'
-import { Noodle } from '@/components/Models/Noodle'
+import { ScrollControls, Scroll } from '@react-three/drei'
+import { Printer } from '@/components/Models/Printer'
 import { RulesData } from '@/data/RulesData'
 import RuleComponent from '@/components/RuleComponent'
 import AboutHero from '@/components/Hero/AboutHero'
-import { Bandanna } from '@/components/Models/Bandanna'
 export default function Scene() {
 
     const ruleComponents = RulesData.map((rule, index) => {
@@ -20,7 +19,7 @@ export default function Scene() {
                 <ScrollControls pages={7} damping={0.3} maxSpeed={100}>
                     {/* Canvas contents in here will *not* scroll, but receive useScroll! */}
                     {/* <Bandanna /> */}
-                    <Noodle />
+                    <Printer />
                     <Scroll>
                         {/* Canvas contents in here will scroll along */}
 

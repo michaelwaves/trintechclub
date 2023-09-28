@@ -1,7 +1,7 @@
 export const RulesData = [
-    "Everyone playing must wear a yellow bandanna and join our discord.",
-    "At the start of the game, there are 1 to many seekers who must find and tag players with pool noodles. No direct physical contact!",
-    "Players are given a few minutes head start to hide in a specified area of the building. Don’t go out of bounds!",
-    "Players tagged by a seeker become seekers, and can pickup a pool noodle from the starting location",
-    "Games usually last 10-15 minutes. After time runs out, we will message all players in the discord and congratulate the winners!"
+    "Step 1: Create a 3D model using Blender or other 3D software (we can teach you how)",
+    "Step 2: Convert your model to gcode using Prusa Slicer or other slicing tools (we can also teach you how)",
+    "Step 3: Realize the print is going to take 10 hours and cry",
+    "Try to limit prints to under 2 hours and 50g. Prints can be submitted by google form or in person at our weekly meetings. The 3D printer can only be used by authorized students, staff, and faculty of Trinity College",
+    "Go wild with your imagination!"
 ]

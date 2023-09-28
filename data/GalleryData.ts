@@ -1,23 +1,23 @@
 export const GalleryData = [
 
     {
-        title: "Make friends",
-        honestTitle: "Procrastinate",
-        imgs: ["/images/game6a.jpg", "/images/game6b.jpg", "/images/game7.jpg"],
+        title: "3D print stuff",
+        honestTitle: "Cry when prints fail",
+        imgs: ["/images/3dprint.jpg", "/images/printer.jpg", "/images/lumiguihand.jpg"],
     },
     {
-        title: "Explore cool buildings",
-        honestTitle: "Get evicted from cool buildings",
-        imgs: ["/images/uc.jpg"]
+        title: "Attend Cool Events",
+        honestTitle: "Where barely anyone shows up",
+        imgs: ["/images/blendertalk.jpg", "/images/blender.jpg"],
     },
     {
-        title: "Hide in random places",
-        honestTitle: "Get caught in random places",
-        imgs: ["/images/corridor.jpg"],
+        title: "Learn to 3D model",
+        honestTitle: "And then forget it all",
+        imgs: ["/images/risedeskmobile.png", "/images/tree.jpg"],
     },
     {
-        title: "Our Biggest Game Yet",
-        honestTitle: "The custodian was not happy",
-        imgs: ["/images/game9a.jpg", "/images/game9b.jpg", "/images/game9c.jpg"],
+        title: "Show off UofT Spirit",
+        honestTitle: "Or don't",
+        imgs: ["/images/uoftears.jpg", "/images/hmh1.jpg"],
     },
 ]
