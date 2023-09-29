@@ -28,7 +28,7 @@
   }
 
   button {
-    @apply text-2xl md:text-3xl font-body bg-s-3 dark:bg-p-3 text-white rounded-md p-2 w-fit;
+    @apply text-2xl md:text-3xl font-body bg-s-3 hover:bg-s-4 dark:bg-p-3 hover:dark:bg-p-4 text-white rounded-md p-2 w-fit;
   }
 }
 

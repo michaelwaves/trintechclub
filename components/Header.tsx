@@ -19,9 +19,9 @@ export default function Header() {
     return (
         <div data-testid="header" className="w-full h-20 fixed top-0 left-0 flex flex-row justify-between p-4 bg-white dark:bg-black z-20 items-center gap-2">
             <Link href="/" className="cursor-pointer">
-                <div className="flex-row hidden md:flex">
-                    <Image src="/images/logo.jpg" width={100} height={100} alt="trin tech club logo" className="h-20 w-auto z-10" />
-                    <Image src="/images/icon.png" width={100} height={100} alt="trin tech club logo" className="h-20 w-auto -translate-x-1"></Image>
+                <div className="items-center justify-center flex-row hidden md:flex gap-2">
+                    <Image src="/images/logo.png" width={100} height={100} alt="trin tech club logo" className="h-12 w-auto z-10 -translate-y-[10px]" />
+                    <h1 className="text-4xl hover:animate-pulse">Trin Tech Club</h1>
                 </div>
                 <AiFillHome className="block md:hidden h-16" />
             </Link>
