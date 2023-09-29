@@ -23,7 +23,7 @@ export default function Hero() {
                     <PrintButton />
                     <DiscordButton />
                 </div>
-                <Link href="/about">Learn More</Link>
+                <Link href="/about" className="underline">Learn More</Link>
             </div>
         </div>
     )
